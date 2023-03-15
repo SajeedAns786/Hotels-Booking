@@ -35,7 +35,7 @@
     <!-- header -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light px-lg-3 py-lg-2 shadow-sm sticky-top">
         <div class="container-fluid">
-            <a class="navbar-brand me-5 fw-bold fs-3 h-font" href="#">Booking</a>
+            <a class="navbar-brand me-5 fw-bold fs-3 h-font" href="index.php">Booking</a>
             <button class="navbar-toggler shadow-none" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -73,7 +73,11 @@
             </div>
         </div>
     </nav>
-    <!-- Modal -->
+
+
+
+
+    <!-- Modal for Login -->
     <div class="modal fade" id="LoginModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
         aria-labelledby="staticBackdropLabel" aria-hidden="true">
         <div class="modal-dialog">
@@ -105,7 +109,9 @@
             </div>
         </div>
     </div>
+    <!-- Modal End Login -->
 
+    <!-- Modal for Registration -->
     <div class="modal fade" id="RegisterModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
         aria-labelledby="staticBackdropLabel" aria-hidden="true">
         <div class="modal-dialog modal-lg">
@@ -170,27 +176,12 @@
 
                     </div>
             </div>
-
-            <!-- <div class="mb-3">
-                            <label class="form-label">Email address</label>
-                            <input type="email" class="form-control shadow-none">
-                        </div>
-                        <div class="mb-4">
-                            <label class="form-label">Password</label>
-                            <input type="password" class="form-control shadow-none">
-                        </div> -->
-            <!-- <div class="d-flex align-items-center justify-content-between mb-2">
-                            <button type="submit" class="btn btn-dark shadow-none">Login</button>
-                            <a href="javascript: void(0)" class="text-secondary text-decoration-none">Forgot
-                                Password?</a>
-                        </div> -->
         </div>
-
         </form>
     </div>
     </div>
     </div>
-
+    <!-- Modal End Login -->
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">

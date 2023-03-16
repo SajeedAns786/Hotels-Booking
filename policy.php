@@ -4,7 +4,8 @@ include('inc/header.php');
 
 <div>
     <h2 class="mt-5 pt-4 text-center fw-bold h-font ">Privacy Policy</h2>
-    <p class="wrapper container mt-5">
+    <div class="h-line bg-dark"></div>
+    <p class=" wrapper container mt-5">
         At Mahabaleshwar tour, we take your privacy seriously and are committed to protecting the personal information
         that you share with us. This privacy policy explains how we collect, use, and protect your information when you
         use our website and services.

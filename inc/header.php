@@ -158,7 +158,7 @@
                         <a class="nav-link  me-2" href="hotels.php">Hotels</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link  me-2" href="#contact">Contact us</a>
+                        <a class="nav-link  me-2" href="aboutus.php">About us</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link  me-2" href="enquiry.php">Enquiry</a>

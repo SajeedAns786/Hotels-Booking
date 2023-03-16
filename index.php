@@ -78,6 +78,7 @@ include('inc/header.php');
 
 <!-- our rooms-->
 <h2 class="mt-5 pt-4 text-center fw-bold h-font ">OUR ROOMS</h2>
+<div class="h-line bg-dark"></div>
 <div class="container">
     <div class="row">
         <div class="col-lg-4 col-md-6 my-3">
@@ -251,6 +252,7 @@ include('inc/header.php');
 
 <!-- our Testimonials -->
 <h2 class="mt-5 pt-4 text-center fw-bold h-font ">TESTIMONIALS</h2>
+<div class="h-line bg-dark"></div>
 <div class="testimonials">
     <h2 class="title">Some words from our costumers</h2>
     <p class="description">Enjoy your vaccation with us .</p>
@@ -314,8 +316,14 @@ include('inc/header.php');
 </div>
 <!-- our Testimonials END -->
 
+<!-- About us -->
+
+
+
+
 <!-- Reach Us  -->
 <h2 class="mt-5 pt-4 text-center fw-bold h-font " id="contact">REACH US</h2>
+<div class="h-line bg-dark"></div>
 <div class="container">
     <div class="row">
         <div class="col-lg-8 col-md-8 p-4 mb-lg-0 mb-3 bg-white rounded">

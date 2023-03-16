@@ -29,7 +29,7 @@ if (isset($_POST['submit1'])) {
 
 <div class="row container ms-5">
     <div class="col-lg-6">
-        <h2 class="mt-5   fw-bold h-font ">Enquiry Form</h2>
+        <h2 class="mt-5 fw-bold h-font ">Enquiry Form</h2>
         <form method="post">
             <?php if ($error) { ?><div class="errorWrap">
                 <strong>ERROR</strong>:<?php echo htmlentities($error); ?>

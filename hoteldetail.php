@@ -15,7 +15,7 @@ include('inc/header.php');
             </div>
         </div>
         <div class="col-lg-7 col-md-12 px-4 ">
-            <div id="roomCarousal" class="carousel slide" data-bs-ride="carousel">
+            <!--<div id="roomCarousal" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#roomCarousal" data-bs-slide-to="0" class="active"
                         aria-current="true" aria-label="Slide 1"></button>
@@ -43,7 +43,13 @@ include('inc/header.php');
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
                 </button>
-            </div>
+            </div>-->
+
+            put slik here
+
+
+
+
         </div>
         <div class="col-lg-5 col-md-12 px-4">
             <div class="card md-4 border-0 shadow-sm rounded-3">
@@ -99,11 +105,17 @@ include('inc/header.php');
                 </p>
             </div>
         </div>
+        <div class="col-lg-6 col-md-12 px-4">
+            Map
+        </div>
+        <div class="col-lg-6 col-md-12 px-4">
+            review
+        </div>
     </div>
 </div>
 </div>
 
-<div class="container">
+<div class="container mt-4">
 
     <table class="table">
         <thead class="table-dark">

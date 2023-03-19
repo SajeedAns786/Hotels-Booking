@@ -86,17 +86,55 @@ include('inc/header.php');
                             Room heater
                         </span>
                     </div>
-
-
                     <a href="#" class="btn   w-100 text-white custom-bg  mb-2  shadow-none ">Book Now</a>
-
                 </div>
             </div>
         </div>
-        <div class="col-lg-9 col-md-12 px-4 ">
-
+        <div class="col-12 mt-4 px-4">
+            <div class="mb-4">
+                <h5>Description</h5>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit ipsum aliquid inventore
+                    reprehenderit. Molestiae officia esse nesciunt praesentium nulla dolor?
+                </p>
+            </div>
         </div>
     </div>
+</div>
+</div>
+
+<div class="container">
+
+    <table class="table">
+        <thead class="table-dark">
+            <td>Room type</td>
+            <td>Sleeps</td>
+            <td>Price for -- nights</td>
+            <td>Select rooms</td>
+            <td>Prices</td>
+        </thead>
+        <tbody>
+            <td>1 large double bed</td>
+            <td>couples</td>
+            <td>-----</td>
+            <td>Filter</td>
+            <td>price according to room</td>
+        </tbody>
+        <tbody>
+            <td>1 large double bed</td>
+            <td>couples</td>
+            <td>-----</td>
+            <td>Filter</td>
+            <td>price according to room</td>
+        </tbody>
+        <tbody>
+            <td>1 large double bed</td>
+            <td>couples</td>
+            <td>-----</td>
+            <td>Filter</td>
+            <td>price according to room</td>
+        </tbody>
+    </table>
 </div>
 
 

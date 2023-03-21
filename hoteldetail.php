@@ -15,7 +15,7 @@ include('inc/header.php');
             </div>
         </div>
         <div class="col-lg-7 col-md-12 px-4 ">
-            <!--<div id="roomCarousal" class="carousel slide" data-bs-ride="carousel">
+            <div id="roomCarousal" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#roomCarousal" data-bs-slide-to="0" class="active"
                         aria-current="true" aria-label="Slide 1"></button>
@@ -43,9 +43,9 @@ include('inc/header.php');
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
                 </button>
-            </div>-->
+            </div>
 
-            put slik here
+            <!-- put slik here -->
 
 
 
@@ -105,17 +105,99 @@ include('inc/header.php');
                 </p>
             </div>
         </div>
-        <div class="col-lg-6 col-md-12 px-4">
-            Map
+        <div class="col-lg-4 col-md-12 px-4 mt-3">
+            <!-- Map -->
+            <iframe class="w-100 rounded"
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3767.4840696338!2d72.99255213093565!3d19.217723995667367!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7bf01be673b93%3A0x82945e32788b08b0!2sFirst%20Homebuy%20Realty%20LLP!5e0!3m2!1sen!2sin!4v1678953464803!5m2!1sen!2sin"
+                width="600" height="365px" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
-        <div class="col-lg-6 col-md-12 px-4">
-            review
+        <div class="col-lg-8 col-md-12 px-4  mt-3">
+            <!-- <h4 class="text-center ">Ratings and Reviews</h4> -->
+            <div class="card ">
+                <div class="card-header text-center  fs-5 fw-bold">Your 2 Min Of Review Can
+                    Help Others To
+                    Book Hotels</div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-sm-3 text-center">
+                            <h3 class="color2 mt-4 mb-4">
+                                4
+                                </span> / 5</b>
+
+                            </h3>
+
+                            <h3>
+                                <span> 250
+                                </span> Review
+                                <?php
+                                                    //}
+                                                    ?>
+                            </h3>
+                        </div>
+                        <div class="col-sm-5">
+                            <p class="my-1">
+                            <div class="progress-label-left"><b>Staff (20 %)</b> </div>
+                            <div class="progress">
+                                <div class="progress-bar  progress-bar-striped progress-bar-animated "
+                                    role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"
+                                    id="five_star_progress"
+                                    style="width: 20%;background-color:#2ec1ac;<?php //echo $fiveStarRatingPercent; ?>">
+                                </div>
+                            </div>
+                            </p>
+                            <p class="my-2">
+                            <div class="progress-label-left"><b>Facilities (30 %)</b> </div>
+                            <div class="progress">
+                                <div class="progress-bar  progress-bar-striped progress-bar-animated "
+                                    role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"
+                                    id="four_star_progress"
+                                    style="width: 30%;background-color:#2ec1ac;<?php //echo $fourStarRatingPercent;?>">
+                                </div>
+                            </div>
+                            </p>
+                            <p class="my-2">
+                            <div class="progress-label-left"><b>Cleanliness (90 %)</b> </div>
+                            <div class="progress">
+                                <div class="progress-bar  progress-bar-striped progress-bar-animated" role="progressbar"
+                                    aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" id="three_star_progress"
+                                    style="width: 90%;background-color:#2ec1ac;<?php //echo $threeStarRatingPercent;?>">
+                                </div>
+                            </div>
+                            </p>
+                            <p class="my-2">
+                            <div class="progress-label-left"><b>Comfort (60 %)</b> </div>
+                            <div class="progress">
+                                <div class="progress-bar  progress-bar-striped progress-bar-animated" role="progressbar"
+                                    aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" id="two_star_progress"
+                                    style="width: 60%;background-color:#2ec1ac;<?php // $twoStarRatingPercent;?>">
+                                </div>
+                            </div>
+                            </p>
+                            <p class="my-2">
+                            <div class="progress-label-left"><b>Value for Money (50 %)</b> </div>
+                            <div class="progress">
+                                <div class="progress-bar  progress-bar-striped progress-bar-animated" role="progressbar"
+                                    aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" id="one_star_progress"
+                                    style="width: 50%;background-color:#2ec1ac;<?php //echo $oneStarRatingPercent;?>">
+                                </div>
+                            </div>
+                            </p>
+                        </div>
+                        <div class="col-sm-4 text-center">
+                            <h3 class="mt-4 mb-3 color2" style="margin-bottom: 0.5em;">Write Review</h3>
+                            <button type="button" name="add_review" id="add_review"
+                                class="btn btn-dark shadow-none restore" data-bs-toggle="modal"
+                                data-bs-target="#review_modal">Review</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>
 </div>
 
-<div class="container mt-4">
+<div class="container mt-5">
 
     <table class="table">
         <thead class="table-dark">
@@ -148,7 +230,146 @@ include('inc/header.php');
         </tbody>
     </table>
 </div>
-
+<!--rating modal start-->
+<div id="review_modal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title color1">Submit Review</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form action="submit_rating.php" method="post" enctype="multipart/form-data">
+                    <h4 class=" mt-2">
+                        <div class="row">
+                            <div class="col-lg-7 col-5 color2">
+                                <p>Staff</p>
+                            </div>
+                            <div class="col-lg-5 col-7">
+                                <div class="rate">
+                                    <input type="radio" id="star5" name="staff" value="5" />
+                                    <label for="star5" title="text">5 stars</label>
+                                    <input type="radio" id="star4" name="staff" value="4" />
+                                    <label for="star4" title="text">4 stars</label>
+                                    <input type="radio" id="star3" name="staff" value="3" />
+                                    <label for="star3" title="text">3 stars</label>
+                                    <input type="radio" id="star2" name="staff" value="2" />
+                                    <label for="star2" title="text">2 stars</label>
+                                    <input type="radio" id="star1" name="staff" value="1" checked />
+                                    <label for="star1" title="text">1 star</label>
+                                </div>
+                            </div>
+                        </div>
+                    </h4>
+                    <h4 class=" mt-2">
+                        <div class="row">
+                            <div class="col-lg-7 col-5 color2">
+                                <p>Facilities</p>
+                            </div>
+                            <div class="col-lg-5 col-7">
+                                <div class="rate">
+                                    <input type="radio" id="star52" name="facilities" value="5" />
+                                    <label for="star52" title="text2">5 stars</label>
+                                    <input type="radio" id="star42" name="facilities" value="4" />
+                                    <label for="star42" title="text2">4 stars</label>
+                                    <input type="radio" id="star32" name="facilities" value="3" />
+                                    <label for="star32" title="text2">3 stars</label>
+                                    <input type="radio" id="star22" name="facilities" value="2" />
+                                    <label for="star22" title="text2">2 stars</label>
+                                    <input type="radio" id="star12" name="facilities" value="1" checked />
+                                    <label for="star12" title="text2">1 star</label>
+                                </div>
+                            </div>
+                        </div>
+                    </h4>
+                    <h4 class=" mt-2">
+                        <div class="row">
+                            <div class="col-lg-7 col-5 color2">
+                                <p>Cleanliness</p>
+                            </div>
+                            <div class="col-lg-5 col-7">
+                                <div class="rate">
+                                    <input type="radio" id="star53" name="cleanliness" value="5" />
+                                    <label for="star53" title="text3">5 stars</label>
+                                    <input type="radio" id="star43" name="cleanliness" value="4" />
+                                    <label for="star43" title="text3">4 stars</label>
+                                    <input type="radio" id="star33" name="cleanliness" value="3" />
+                                    <label for="star33" title="text3">3 stars</label>
+                                    <input type="radio" id="star23" name="cleanliness" value="2" />
+                                    <label for="star23" title="text3">2 stars</label>
+                                    <input type="radio" id="star13" name="cleanliness" value="1" checked />
+                                    <label for="star13" title="text3">1 star</label>
+                                </div>
+                            </div>
+                        </div>
+                    </h4>
+                    <h4 class=" mt-2">
+                        <div class="row">
+                            <div class="col-lg-7 col-5 color2">
+                                <p>Comfort</p>
+                            </div>
+                            <div class="col-lg-5 col-7">
+                                <div class="rate">
+                                    <input type="radio" id="star54" name="comfort" value="5" />
+                                    <label for="star54" title="text4">5 stars</label>
+                                    <input type="radio" id="star44" name="comfort" value="4" />
+                                    <label for="star44" title="text4">4 stars</label>
+                                    <input type="radio" id="star34" name="comfort" value="3" />
+                                    <label for="star34" title="text4">3 stars</label>
+                                    <input type="radio" id="star24" name="comfort" value="2" />
+                                    <label for="star24" title="text4">2 stars</label>
+                                    <input type="radio" id="star14" name="comfort" value="1" checked />
+                                    <label for="star14" title="text4">1 star</label>
+                                </div>
+                            </div>
+                        </div>
+                    </h4>
+                    <h4 class=" mt-2">
+                        <div class="row">
+                            <div class="col-lg-7 col-5 color2">
+                                <p>Value of Money</p>
+                            </div>
+                            <div class="col-lg-5 col-7">
+                                <div class="rate">
+                                    <input type="radio" id="star55" name="value" value="5" />
+                                    <label for="star55" title="text5">5 stars</label>
+                                    <input type="radio" id="star45" name="value" value="4" />
+                                    <label for="star45" title="text5">4 stars</label>
+                                    <input type="radio" id="star35" name="value" value="3" />
+                                    <label for="star35" title="text5">3 stars</label>
+                                    <input type="radio" id="star25" name="value" value="2" />
+                                    <label for="star25" title="text5">2 stars</label>
+                                    <input type="radio" id="star15" name="value" value="1" checked />
+                                    <label for="star15" title="text5">1 star</label>
+                                </div>
+                            </div>
+                        </div>
+                    </h4>
+                    <div class="form-group my-4" style="display:none">
+                        <!--<label for="project" class="form-label">Name of Project</label>-->
+                        <select id="inputState" name="cat" id="cat" class="form-select">
+                            <option value="<?php //echo htmlentities($result->PackageId); ?>">
+                                <?php //echo htmlentities($result->PackageName); ?>
+                            </option>
+                        </select>
+                    </div>
+                    <div class="form-group my-4">
+                        <input type="text" name="user_name" id="user_name" class="form-control"
+                            placeholder="Enter Your Name" required />
+                    </div>
+                    <div class="form-group my-4">
+                        <textarea name="user_review" id="user_review" class="form-control"
+                            placeholder="Type Comment Here" required></textarea>
+                    </div>
+                    <div class="form-group text-center mt-4">
+                        <button type="submit" class="btn btn-dark shadow-none" id="save_review">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<!--rating modal end-->
 
 
 <?php

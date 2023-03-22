@@ -198,7 +198,7 @@ include('inc/header.php');
 </div>
 
 <div class="container mt-5">
-
+    <h4 class="text-center mb-3 ">Availability</h4>
     <table class="table">
         <thead class="table-dark">
             <td>Room type</td>
@@ -230,6 +230,48 @@ include('inc/header.php');
         </tbody>
     </table>
 </div>
+
+<div class="container mt-5">
+    <h4 class="text-center mb-3">Hotel Policy</h4>
+    <div class="row">
+        <div class="col-lg-3 col-md-3 col-sm-3 fw-bold ml-3 mb-2">
+            Check-in
+        </div>
+        <div class="col-lg-9 col-md-9 col-sm-9 mb-2">
+            10:00 am
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-3 fw-bold ml-3 mb-2">
+            Check-out
+        </div>
+        <div class="col-lg-9 col-md-9 col-sm-9 mb-2">
+            12:00 pm
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-3 fw-bold ml-3 mb-2">
+            dbsdbd
+        </div>
+        <div class="col-lg-9 col-md-9 col-sm-9 mb-2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, libero, voluptatibus saepe ut perspiciatis
+            quaerat consequatur at consequuntur quibusdam in rem iure repudiandae! Perspiciatis officiis quama culpa.
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-3 fw-bold ml-3 mb-2">
+            dbsdbd
+        </div>
+        <div class="col-lg-9 col-md-9 col-sm-9 mb-2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, libero, voluptatibus saepe ut perspiciatis
+            quaerat consequatur at consequuntur quibusdam in rem iure repudiandae! Perspiciatis officiis quam culpa
+            laudantium adipisci nostrum.
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-3 fw-bold ml-3 mb-2">
+            dbsdbd
+        </div>
+        <div class="col-lg-9 col-md-9 col-sm-9 mb-2">
+            Dolor, libero, voluptatibus saepe ut perspiciatis
+            quaerat consequatur at consequuntur quibusdam in rem iure repudiandae! Perspiciatis officiis quam culpa
+            laudantium adipisci nostrum.
+        </div>
+    </div>
+</div>
+
 <!--rating modal start-->
 <div id="review_modal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog" role="document">
@@ -282,6 +324,7 @@ include('inc/header.php');
                             </div>
                         </div>
                     </h4>
+
                     <h4 class=" mt-2">
                         <div class="row">
                             <div class="col-lg-7 col-5 color2">
@@ -371,7 +414,7 @@ include('inc/header.php');
 </div>
 <!--rating modal end-->
 
-
+<!-- fotter include -->
 <?php
 include('inc/footer.php');
 ?>

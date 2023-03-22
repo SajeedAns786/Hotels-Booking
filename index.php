@@ -427,6 +427,7 @@ function moveSlider() {
     console.log(sliderElm.clientWidth, leftMargin);
 }
 
+
 function moveLeft() {
     if (idxCurrentSlide === 0) idxCurrentSlide = numberSliderBoxs - 1;
     else idxCurrentSlide--;
